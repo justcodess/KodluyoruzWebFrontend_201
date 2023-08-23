@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>weather</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <div class="searchBox"><input type="text" placeholder="enter city" spellcheck="false"></div>
+            <button class="btn"><i class="fa-solid fa-magnifying-glass"></i> </button>
+        </div>
+        <div class="main">
+            <div class="weather">
+                <div class="weatherlogo"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                <div class="temp"></div>
+                <div class="city"></div>
+            </div>
+            <div class="info">
+                <div class="humidity">
+                    <div class="humadityLogo"><i class="fa-solid fa-droplet"></i></div>
+                    <div class="details">
+                        <div class="per"></div>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <div class="windLogo"><i class="fa-solid fa-wind"></i></div>
+                    <div class="details">
+                        <div class="speed"></div>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="weather.js"></script>
+</body>
+</html>

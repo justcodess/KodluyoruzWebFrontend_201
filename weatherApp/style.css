@@ -1,0 +1,47 @@
+.card{
+    background: linear-gradient(135deg,#acecdb,#a69bec);
+    margin: auto;
+    width: 80%;
+    max-width: 550px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+.search input,.search button{
+    border-radius: 30px;
+    padding: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+   
+}
+.humidity,.wind{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.info i{
+    font-size: 35px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.weather i{
+    font-size: 100px;
+    padding: 20px;
+}
